@@ -12,15 +12,16 @@ export function Header() {
       key="1"
       className="flex items-center justify-between p-4 border-b border-gray-200"
     >
-      <Link className="flex items-center" href="#">
+      <Link className="flex items-center" href="/">
         <CrownIcon className="w-6 h-6 mr-2" />
         <h1 className="text-2xl font-bold">Chalk Checker</h1>
       </Link>
+
       <nav className="flex items-center space-x-4">
-        <Link className="text-lg font-medium hover:underline" href="#">
+        <Link className="text-lg font-medium hover:underline" href="/trends">
           Trends
         </Link>
-        <Link className="text-lg font-medium hover:underline" href="#">
+        <Link className="text-lg font-medium hover:underline" href="/trends">
           About
         </Link>
         <Button variant="outline">Login</Button>
